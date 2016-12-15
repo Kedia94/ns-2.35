@@ -1283,7 +1283,7 @@ newDSDV_Agent::GetNextHop(nsaddr_t dest){
   	  	  double dist = nextnode->distance(dstnode);
   	  	  if (dist_this > dist){
   	  	  	  if ( (dist_this-dist)/delay > SPEED_)
-  	  	  	  	  printf("SPEED: %f\n", (dist_this-dist)/delay);
+//  	  	  	  	  printf("SPEED: %f\n", (dist_this-dist)/delay);
   	  	  	  	  nei_list[nei_num++] = prte->dst;
 		  }
 		  if (table_->RemainingLoop() == 0)
